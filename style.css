@@ -1,0 +1,48 @@
+  html {
+    font-size: 10px;
+    background: url('./background.jpg') top center no-repeat;
+    background-size: 100%;
+  }
+ body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+.teclas {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.tecla {
+    border: .3rem solid #cfcfcc;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    width: 9rem;
+    border-radius: 1.1rem;
+    text-align: center;
+    transition: all .07s ease;
+    font-size: 1.5rem;
+    color: #ff9b05;
+    background: rgba(0,0,0,0.8);
+    text-shadow: 0 0 .5rem black;
+}
+.onpress {
+    transform: scale(0.8);
+    border-color: rgb(243, 6, 6);
+    box-shadow: 0 0 1rem rgb(8, 177, 8);
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+.sonido {
+  font-size: 1.3rem;
+  letter-spacing: .01rem;
+  text-transform:capitalize;
+  color: rgb(255, 255, 255);
+}
